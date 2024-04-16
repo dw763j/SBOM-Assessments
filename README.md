@@ -7,9 +7,12 @@ As SBOM can be widely used in software software chain management, the capability
 ### Questions
 
 We asked 3 questions:
-    **1. Compliance**: Do SBOM tools generate outputs that adhere to user requirements and standards?
-    **2. Consistency**: Do SBOM tools maintain consistency in transforming the produced SBOM?
-    **3. Accuracy**: How accurate are the SBOM produced by tools in reflecting the objective software?
+
+**1. Compliance**: Do SBOM tools generate outputs that adhere to user requirements and standards?
+
+**2. Consistency**: Do SBOM tools maintain consistency in transforming the produced SBOM?
+
+**3. Accuracy**: How accurate are the SBOM produced by tools in reflecting the objective software?
 
 Upon 9970 SBOM documents generated from 6 SBOM tools (sbom-tool, ort, syft, gh-sbom, cdxgen and scancode) in both SPDX and CycloneDX on 1162 GitHub repositories, we assess these questions. To evaluate accuracy, 100 repositories are annotated for benchmark, comprising 660 components and 4,000 data fields.
 
